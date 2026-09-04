@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_IMAGE:  ${{ secrets.ACR_LOGIN_SERVER }}/axion-data-simulator
+  DOCKER_IMAGE: ${{ secrets.ACR_LOGIN_SERVER }}/axion-data-simulator
 
 jobs:
   build-and-push:
